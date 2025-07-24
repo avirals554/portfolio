@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <section>
       <a href={socialLinks.twitter} target="_blank">
-        My Portfolio
+        {/* Aviral Kumar Singh */}
         <Image
           src="/profile.png"
           alt="Profile photo"
@@ -16,7 +16,7 @@ export default function Page() {
           priority
         />
       </a>
-      <h1 className="mb-8 text-2xl font-medium">My portfolio</h1>
+      <h1 className="mb-8 text-2xl font-medium">Aviral Kumar Singh</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           A clean, fast, and lightweight portfolio template built with Next.js,
