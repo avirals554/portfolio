@@ -53,8 +53,8 @@ export default function Page() {
         </p>
         <p>
           Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
+          <a href="https://github.com/avirals554" target="_blank">
+            Aviral
           </a>
           .
         </p>
