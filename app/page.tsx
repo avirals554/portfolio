@@ -8,7 +8,7 @@ export default function Page() {
         {/* Aviral Kumar Singh */}
         <Image
           src="/profile.png"
-          alt="Profile photo"
+          alt="our pale blue dot"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
           width={160}
@@ -19,8 +19,13 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-medium">Aviral Kumar Singh</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          Hello Everyone , My name is Aviral and this wesite is my portfolio i
+          am a learner which may change in like 80 years ,i run on oxygen and
+          caffine lets make something cool together as a ape stronger together .{" "}
+          <a href={socialLinks.twitter} target="_blank">
+            lets connect{" "}
+          </a>{" "}
+          .
         </p>
         <p>
           Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
@@ -54,7 +59,7 @@ export default function Page() {
         <p>
           Built and maintained by{" "}
           <a href="https://github.com/avirals554" target="_blank">
-            Aviral
+            me
           </a>
           .
         </p>
